@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20224.22.1117.1841                               -->
-<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
@@ -18,6 +18,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='SuperStoreSalesDashboard_16750713567210' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -133,6 +134,7 @@
           <map key='[State]' value='[Orders].[State]' />
           <map key='[Sub-Category]' value='[Orders].[Sub-Category]' />
         </cols>
+        <refresh increment-key='' incremental-updates='false' />
         <metadata-records>
           <metadata-record class='capability'>
             <remote-name />
@@ -5304,7 +5306,6 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='92750' id='23' param='horz' type-v2='layout-flow' w='100000' x='0' y='7250' />
           </zone>
         </zone>
         <zone h='41875' id='5' name='Sheet 2' w='58000' x='40500' y='55000' />
@@ -5325,8 +5326,8 @@
           </layout-options>
           <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='26' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='23' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='7250' id='13' type-v2='title' w='100000' x='0' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
